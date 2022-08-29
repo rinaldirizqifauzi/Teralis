@@ -30,7 +30,7 @@ use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| Web Routes Tes
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
@@ -106,6 +106,7 @@ Route::post('/kirim', function () {
 
     Route::get('/loginpengguna', [PenggunaController::class, 'login'])->name('loginpengguna')->middleware('guest');
     Route::post('/postlogin', [PenggunaController::class,'postlogin'])->name('postlogin');
+
     // Register Pengguna
     Route::get('/registerpengguna', [PenggunaController::class, 'register'])->name('registerpengguna');
     Route::post('/registerpengguna', [PenggunaController::class, 'storeregister'])->name('registerpengguna.store');
