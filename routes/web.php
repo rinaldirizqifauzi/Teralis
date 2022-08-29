@@ -30,7 +30,7 @@ use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes Tes coba l ubah dek
+| Web Routes Tes coba l ubah dek nih satu lagi
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
